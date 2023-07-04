@@ -1,0 +1,29 @@
+syntax = "proto3";
+package cloudrpc;
+
+import "google/protobuf/empty.proto";
+
+service AIAssitant {
+    rpc Serve (ServiceRequest) returns (ServiceResponse);
+
+    rpc GetServiceList (google.protobuf.Empty) returns (ServiceList);
+}
+
+message ServiceRequest {
+    string name = 1;
+    string prompt = 2;
+}
+
+message ServiceResponse {
+    int32 status = 1;
+    string result = 2;
+}
+
+message Service {
+    string name = 1;
+    string description = 2;
+}
+
+message ServiceList {
+    repeated Service services = 1;
+}

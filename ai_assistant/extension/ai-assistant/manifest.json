@@ -1,0 +1,20 @@
+{
+    "name": "AI Assistant",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": {
+            "16": "src/assets/copy.svg",
+            "48": "src/assets/copy.svg",
+            "128": "src/assets/copy.svg"
+        },
+        "default_title": "AI Assistant",
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["src/content.tsx"]
+        }
+    ]
+}

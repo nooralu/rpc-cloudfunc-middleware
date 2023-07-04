@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "middleware",
+    "ai_assistant",
+]

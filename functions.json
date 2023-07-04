@@ -1,0 +1,29 @@
+{
+  "version": "v1",
+  "functions": [
+    {
+      "Aliyun": {
+        "info": {
+          "name": "translate",
+          "description": "英 -> 中翻译",
+          "url": "your-url"
+        },
+        "spec": {
+          "method": "POST"
+        }
+      }
+    },
+    {
+      "Aliyun": {
+        "info": {
+          "name": "NewBing",
+          "description": "新必应",
+          "url": "your-url"
+        },
+        "spec": {
+          "method": "POST"
+        }
+      }
+    }
+  ]
+}
