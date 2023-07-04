@@ -43,7 +43,7 @@
 
 # 使用效果
 
-[demo.webm](https://github.com/nooralu/rpc-cloudfunc-middleware/assets/76510310/4dd82ddd-1197-44a5-975b-ffdde7a1e409)
+
 
 # 注意事项
 
