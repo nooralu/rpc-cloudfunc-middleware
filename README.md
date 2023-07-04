@@ -43,6 +43,8 @@
 
 # 使用效果
 
+[demo.webm](https://github.com/nooralu/rpc-cloudfunc-middleware/assets/76510310/4dd82ddd-1197-44a5-975b-ffdde7a1e409)
+
 # 注意事项
 
 - 根据 gPRC 官网[介绍](https://grpc.io/docs/platforms/web/)，gPRC 使用了 HTTP/2 作为传输协议，但是 Web 环境对 HTTP/2 的支持并不完善，所以需要使用使用代理。
